@@ -17,5 +17,5 @@ mix.sass('src/sass/app.scss', 'public/css')
     .sourceMaps();
 
 if (mix.inProduction()) {
-    mix.purgeCss().version();
+    mix.purgeCss();
 }
